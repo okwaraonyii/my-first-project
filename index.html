@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freecode camp</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="area">
+        <h1 class="in"> freeCodeCamp Survey Form</h1>
+        <p class="out">Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <div class="container">
+    <div class="content">
+        <div class="form">
+            <form class="form3" action="lilianoyinyechi@gmail.com">
+                <div class="label"> <label>Name </label> </div>
+                <input class="lab" type="text" placeholder=" Enter your name" required>
+                <div class="label"> <label>Email</label> </div>
+                <input class="lab" type="text" placeholder=" Enter your email" required>
+                <div class="label"> <label>Age <span> optional</span> </label> </div>
+                <input class="lab"
+                type="number"
+                name="age"
+                min="10"
+                max="99"
+                placeholder=" Age" required>
+                <div class="or"> <label>which option best describes your current role? </label> </div>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                  </select>
+            </form>
+
+            <div class="form-pen">
+                <p> would you recommend freeCodeCamp to a friend?</p>
+    
+                <form action="https://codepen.io/login? "> <label><input id="definitely" type="radio"
+                            name="definitely-maybe-not sure">
+                        Definitely</label> </form>
+                <form action="https://codepen.io/login? "> <label><input id="maybe" type="radio"
+                            name="definitely-maybe-not sure">
+                        Maybe</label>
+                </form>
+                <form action="https://codepen.io/login? "> <label><input id="not sure" type="radio"
+                            name="definitely-maybe-not sure">
+                        Not sure</label> </form>
+                </div>
+                <div class="sure">
+                    <p> what is your favorite feature of freeCodeCamp?</p>
+                        <div class="sure-e">  <select id="most-like" name="mostLike" class="form-control" required>
+                        <option disabled selected value>Select an option</option>
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="openSource">Open Source</option>
+                      </select>
+                      </div>
+                </div>
+
+                </form>
+                <form class=" form3" action=" https://codepen.io/login? ">
+
+                    <p>
+                        What would you like to see improved?
+                        <span class="clue">(Check all that apply)</span>
+                      </p>
+                    <input id="front-end projects" type="checkbox" name="personality">
+                    <label for="front-end projects">Front-end projects</label> <br>
+                    <input id="back-end projects" type="checkbox" name="personality">
+                    <label for="back-end projects">Back-end projects</label><br>
+                    <input id="data visualization" type="checkbox" name="personality">
+                    <label for="data visualization">Data visualization</label> <br>
+                    <input id="challenges" type="checkbox" name="personality">
+                    <label for="challenges">challenges</label><br>
+                    <input id="open source community" type="checkbox" name="personality">
+                    <label for="open source community">Open source community</label><br>
+                    <input id="gitter help rooms" type="checkbox" name="personality">
+                    <label for="gitter help rooms">Gitter help rooms</label> <br>
+                    <input id="videos" type="checkbox" name="personality">
+                    <label for="videos">Videos</label><br>
+                    <input id="city meetups" type="checkbox" name="personality">
+                    <label for="city meetups">City meetups</label><br>
+                    <input id="wiki" type="checkbox" name="personality">
+                    <label for="wiki">Wiki</label><br>
+                    <input id="forum" type="checkbox" name="personality">
+                    <label for="forum">Forum</label><br>
+                    <input id="additional courses" type="checkbox" name="personality">
+                    <label for="additional courses">Additional courses</label> <br>
+                </form>
+                        <div class="textarea">
+                            <p>Any comments or suggestions?</p>
+                            <textarea
+                              id="comments"
+                              class="input-textarea"
+                              name="comment"
+                              placeholder="Enter your comment here..."
+                            ></textarea>
+                          </div>
+
+                          <div class="btn">
+                            <button type="submit" id="submit" class="submit-button">
+                              Submit
+                            </button>
+                          </div>
+                </form>
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

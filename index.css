@@ -1,0 +1,170 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  background-image: url('img/code4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(127, 127, 250, 0.8);
+  color: white;
+}
+@media only screen and(max-width:768px)
+{
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background-image: url('img/code4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(127, 127, 250, 0.8);
+    color: white;
+  }
+  
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: rgba(112, 112, 243, 0.8);
+  opacity: 65%;
+}
+
+.in {
+  font-weight: 400;
+  line-height: 1.2;
+padding-top: 10px;
+  text-align: center;
+}
+
+.out {
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  padding-left: 0.5rem;} */
+.form3 {
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* .form3{width: 100%;} */
+.container {
+  width: 70%;
+  height: 90%;
+  margin: auto;
+  background-color: rgb(3, 3, 32);
+  opacity: 65%;
+  border-radius: px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.lab {
+  width: 95%;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+.form4 {
+  height: 40px;
+}
+
+.or {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+.label {
+
+  padding-top: 20px;
+}
+
+.form-control {
+  width: 95%;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+.form-pen {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  margin-left: 1.25rem;
+}
+
+.sure {
+  padding-top: 0.25rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.submit-button {
+  display: block;
+  width: 95%;
+  padding: 1rem;
+  margin: auto;
+  background: green;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 90%;
+  padding: 0.625rem;
+  resize: vertical;
+  margin: auto;
+  margin-left: 0.5rem;
+}
+
+.textarea {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 10px;
+}
